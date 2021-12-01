@@ -27,7 +27,7 @@ async def cancel(event):
 async def start(event):
   await event.reply("**LoungeTagger Bot**, Grup veya kanaldaki neredeyse tüm üyelerden bahsedebilirim ★\nDaha fazla bilgi için **/help**'i tıklayın.",
                     buttons=(
-                      [Button.url('🌟 Beni Bir Gruba Ekle', 'https://t.me/loungetaggerbot?startgroup=a'),
+                      [Button.url('🌟 Beni Bir Gruba Ekle', 'https://t.me/kabustaggerbot?startgroup=a'),
                       Button.url('📣 XAOSFED', 'https://t.me/XAOSresmi'),
                       Button.url('🚀 Sahibim', 'https://t.me/xXx_KABUS')]
                     ),
